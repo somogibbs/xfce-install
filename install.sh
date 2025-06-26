@@ -1,5 +1,5 @@
 !#/bin/bash
-## Packages to install
+#Packages to install
 sudo apt install blueman synaptic package-update-indicator gnome-disk-utility gparted
 gsmartcontrol hardinfo doublecmd-gtk pdfarranger onboard bleachbit diskscan wireshark guymager uget
 
