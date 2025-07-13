@@ -35,4 +35,5 @@ sudo apt install -y \
     libreoffice-writer firefox-esr synaptic
 
 # Cleanup
+tldr --update
 sudo apt autoremove -y
