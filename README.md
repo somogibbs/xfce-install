@@ -1,10 +1,10 @@
 # xfce-install
 Minimal Debian xfce install meant for an older Thinkpad.
-After standard.iso debian install - install git and clone repo with 
+After standard.iso debian install - install git with `sudo apt install git` 
 
-`git clone https://github.com/somogibbs/xfce-install.git`
+Clone repo with `git clone https://github.com/somogibbs/xfce-install.git`
 
-## cd into downloaded folder 
+## Enter into cloned folder 
 `cd xfce-install`
 
 ## List files in folder and make executable 
