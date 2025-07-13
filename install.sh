@@ -9,7 +9,7 @@ sudo apt update
 
 # === 🧰 System Utilities ===
 sudo apt install -y \
-    gnome-disk-utility gparted gsmartcontrol lshw lm-sensors preload stacer cpu-x
+    gnome-disk-utility gparted gsmartcontrol lshw lm-sensors preload stacer cpu-x tldr
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
