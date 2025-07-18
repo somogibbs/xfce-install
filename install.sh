@@ -13,7 +13,7 @@ sudo apt install -y \
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager polybar rofi plank \
+    xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager rofi plank \
     package-update-indicator obsidian-icon-theme variety
 
 # === 🔒 Security & Backup ===
