@@ -14,7 +14,8 @@ sudo apt install -y \
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
     xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager rofi plank \
-    package-update-indicator obsidian-icon-theme variety
+    package-update-indicator obsidian-icon-theme variety \
+    fonts-firacode fonts-jetbrains-mono
 
 # === 🔒 Security & Backup ===
 sudo apt install -y \
