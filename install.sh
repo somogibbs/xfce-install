@@ -29,7 +29,7 @@ sudo apt install -y \
 
 # === 🎥 Multimedia ===
 sudo apt install -y \
-    libavcodec-extra ffmpeg mpv
+    libavcodec-extra ffmpeg mpv yt-dlp
 
 # === 🧑‍💻 Productivity & Browsing ===
 sudo apt install -y \
