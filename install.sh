@@ -1,19 +1,19 @@
 #!/bin/bash
 # Debian modular setup script with categorized install blocks
 
-# Add backports repository
-echo "deb http://deb.debian.org/debian bookworm-backports main contrib non-free-firmware" | sudo tee -a /etc/apt/sources.list
+# Fix up repository
+echo "deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
 
 # Update package lists
 sudo apt update
 
 # === 🧰 System Utilities ===
 sudo apt install -y \
-    gnome-disk-utility gparted gsmartcontrol lshw lm-sensors preload stacer cpu-x tldr
+    gnome-disk-utility gparted gsmartcontrol lshw lm-sensors preload cpu-x 
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager rofi plank \
+    xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager \
     package-update-indicator obsidian-icon-theme variety \
     fonts-firacode fonts-jetbrains-mono
 
@@ -36,5 +36,4 @@ sudo apt install -y \
     libreoffice-writer firefox-esr synaptic
 
 # Cleanup
-tldr --update
 sudo apt autoremove -y
