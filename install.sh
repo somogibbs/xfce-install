@@ -1,5 +1,5 @@
 #!/bin/bash
-# Debian modular setup script with categorized install blocks
+# Debian XFCE setup script for older laptops
 
 # Fix up repository
 echo "deb http://deb.debian.org/debian trixie main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
@@ -13,9 +13,9 @@ sudo apt install -y \
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-terminal xfce4-power-manager \
-    package-update-indicator obsidian-icon-theme variety \
-    fonts-firacode fonts-jetbrains-mono
+    xfce4 xfce4-goodies xfce4-power-manager variety \
+    package-update-indicator obsidian-icon-theme \
+    fonts-firacode fonts-jetbrains-mono fonts-recommended
 
 # === 🔒 Security & Backup ===
 sudo apt install -y \
