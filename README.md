@@ -7,11 +7,11 @@ Clone repo with `git clone https://github.com/somogibbs/xfce-install.git`
 If you run into problems installing git, check to see if the repo is commented out 
 by running `sudo apt edit-sources` and removing the hashtag in the first line
 
-## Enter into cloned folder 
+### Enter into cloned folder 
 `cd xfce-install`
 
-## List files in folder and make executable 
+### List files in folder and make executable 
 `ls` then `chmod +x install.sh` 
 
-## Run install script
+### Run install script
 Type in terminal `./install.sh`
