@@ -13,9 +13,9 @@ sudo apt install -y \
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-power-manager variety \
-    package-update-indicator obsidian-icon-theme \
-    fonts-firacode fonts-jetbrains-mono fonts-recommended
+    xfce4 xfce4-goodies xfce4-power-manager variety foliate\
+    package-update-indicator obsidian-icon-theme numix-icon-theme\
+    papirus-icon-theme fonts-firacode fonts-jetbrains-mono fonts-recommended
 
 # === 🔒 Security & Backup ===
 sudo apt install -y \
@@ -25,7 +25,7 @@ sudo ufw enable
 
 # === 🌐 Network & Download Tools ===
 sudo apt install -y \
-    blueman curl wget qbittorrent
+    blueman curl wget qbittorrent fragments
 
 # === 🎥 Multimedia ===
 sudo apt install -y \
