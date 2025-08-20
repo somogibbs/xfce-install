@@ -9,12 +9,12 @@ sudo apt update
 
 # === 🧰 System Utilities ===
 sudo apt install -y \
-    gnome-disk-utility gparted gsmartcontrol lshw lm-sensors preload cpu-x 
+    gnome-disk-utility gparted gsmartcontrol lshw preload cpu-x 
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-power-manager variety foliate\
-    package-update-indicator obsidian-icon-theme numix-icon-theme\
+    xfce4 xfce4-goodies xfce4-power-manager variety foliate \
+    package-update-indicator obsidian-icon-theme numix-icon-theme \
     papirus-icon-theme fonts-firacode fonts-jetbrains-mono fonts-recommended
 
 # === 🔒 Security & Backup ===
@@ -25,7 +25,7 @@ sudo ufw enable
 
 # === 🌐 Network & Download Tools ===
 sudo apt install -y \
-    blueman curl wget qbittorrent fragments
+    blueman curl wget fragments
 
 # === 🎥 Multimedia ===
 sudo apt install -y \
@@ -35,5 +35,3 @@ sudo apt install -y \
 sudo apt install -y \
     libreoffice-writer firefox-esr synaptic
 
-# Cleanup
-sudo apt autoremove -y
