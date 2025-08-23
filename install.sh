@@ -13,7 +13,7 @@ sudo apt install -y \
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
-    xfce4 xfce4-goodies xfce4-power-manager variety foliate \
+    xfce4 xfce4-goodies xfce4-power-manager  \
     package-update-indicator obsidian-icon-theme numix-icon-theme \
     papirus-icon-theme fonts-firacode fonts-jetbrains-mono fonts-recommended
 
@@ -29,10 +29,9 @@ sudo apt install -y \
 
 # === 🎥 Multimedia ===
 sudo apt install -y \
-    libavcodec-extra ffmpeg mpv yt-dlp \
-foliate 
+    libavcodec-extra ffmpeg mpv yt-dlp 
 
 # === 🧑‍💻 Productivity & Browsing ===
 sudo apt install -y \
-    libreoffice-writer firefox-esr synaptic
+    firefox-esr synaptic foliate
 
