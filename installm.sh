@@ -32,7 +32,7 @@ sudo apt -y install \
 echo "🧰 Installing system utilities and diagnostics..."
 sudo apt -y install \
   synaptic lshw cpu-x btop lm-sensors fastfetch timeshift gamemode bleachbit \
-  gnome-disk-utility gparted gsmartcontrol
+  gnome-disk-utility gparted gsmartcontrol xarchiver thunar-archive-plugin
 
 # 📝 Productivity & Browsers
 echo "📝 Installing productivity tools and browsers..."
