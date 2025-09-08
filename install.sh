@@ -9,7 +9,7 @@ sudo apt update
 
 # === 🧰 System Utilities ===
 sudo apt install -y \
-    gparted gsmartcontrol lshw preload cpu-x 
+    gparted gsmartcontrol lshw preload cpu-x xarchiver thunar-archive-plugin
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
