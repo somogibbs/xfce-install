@@ -6,7 +6,7 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 ## 🔗 Table of Contents
 
-- [⚙️ Git and Run the Script](#️git-and-run-the-script)
+- [⚙️ Git and Run the Script](#git-and-run-the-script)
 - [📶 Post-Install WiFi Setup](#post-install-wifi-setup)
 - [🖨️ Lychee Slicer](#lychee-slicer-deb-package)
 - [🎮 Heroic Launcher](#heroic-latest-deb-package)
@@ -46,10 +46,10 @@ Then type `adduser your-username sudo`
 ### ⬇️ Clone Repo and Run Install Script
 
 Install git from command line with `sudo apt install git`
-Then `git clone https://github.com/somogibbs/debian-install.git` -or-
+Clone repo with `git clone https://github.com/somogibbs/debian-install.git` -or-
 `git clone https://github.com/somogibbs/xfce-install.git` -or-
 `git clone https://github.com/somogibbs/lxqt-install.git`
-Enter the folder with either `cd debian-xfce-lxqt-install` and list files with `ls`
+Enter the folder `cd (debian-xfce-lxqt)-install` and list files with `ls`
 Make the .sh file executable with `chmod +x install.sh`
 Run the program by entering `./install.sh` in the terminal 
 
