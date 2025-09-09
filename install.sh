@@ -9,13 +9,13 @@ sudo apt update
 
 # === 🧰 System Utilities ===
 sudo apt install -y \
-    gparted gsmartcontrol lshw preload cpu-x xarchiver thunar-archive-plugin
+    gparted gsmartcontrol lshw preload cpu-x xarchiver thunar-archive-plugin \
+bleachbit
 
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
     xfce4 xfce4-goodies xfce4-power-manager  \
-    package-update-indicator obsidian-icon-theme numix-icon-theme \
-    papirus-icon-theme fonts-jetbrains-mono fonts-recommended
+    package-update-indicator obsidian-icon-theme papirus-icon-theme \ fonts-jetbrains-mono fonts-recommended
 
 # === 🔒 Security & Backup ===
 sudo apt install -y \
