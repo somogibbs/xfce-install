@@ -15,8 +15,9 @@ sudo apt update
 echo "🖥️ Installing XFCE components..."
 sudo apt -y install \
   xfce4 xfce4-goodies xfce4-power-manager package-update-indicator blueman \
-  numix-icon-theme papirus-icon-theme obsidian-icon-theme \
-  fonts-recommended fonts-jetbrains-mono
+  oxygen-icon-theme papirus-icon-theme obsidian-icon-theme moka-icon-theme \
+  fonts-recommended fonts-jetbrains-mono yaru-theme-gtk orchis-gtk-theme \
+  greybird-gtk-theme breeze-gtk-theme darkcold-gtk-theme
 
 # 🎨 Media & Creative Tools
 echo "🎨 Installing media and creative tools..."
