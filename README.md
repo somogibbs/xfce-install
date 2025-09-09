@@ -6,7 +6,7 @@ Standard Readme for my Debian Linux install with either GNOME, XFCE, or LXQT. A 
 
 ## 🔗 Table of Contents
 
-- [⚙️ Git and Run the Script](#git-and-run-the-script)
+- [⚙️ Git and Run the Script](#⚙️git-and-run-the-script)
 - [📶 Post-Install WiFi Setup](#post-install-wifi-setup)
 - [🖨️ Lychee Slicer](#lychee-slicer-deb-package)
 - [🎮 Heroic Launcher](#heroic-latest-deb-package)
