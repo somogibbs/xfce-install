@@ -15,7 +15,9 @@ bleachbit
 # === 🎮 User Interface & Desktop ===
 sudo apt install -y \
     xfce4 xfce4-goodies xfce4-power-manager  \
-    package-update-indicator obsidian-icon-theme papirus-icon-theme \ fonts-jetbrains-mono fonts-recommended \ yaru-theme-gtk orchis-gtk-theme greybird-gtk-theme breeze-gtk-theme darkcold-gtk-theme
+    package-update-indicator obsidian-icon-theme papirus-icon-theme breeze-icon-theme \
+    fonts-jetbrains-mono fonts-recommended yaru-theme-gtk orchis-gtk-theme greybird-gtk-theme \
+    breeze-gtk-theme darkcold-gtk-theme
 
 # === 🔒 Security & Backup ===
 sudo apt install -y \
